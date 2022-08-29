@@ -1,0 +1,325 @@
+/*
+Eksternal CSS oleh
+Author : Deka M Wildan
+Email : dekabhinus@gmail.com
+Tema Web : Landing Page Web Profil
+*/
+
+* {
+	scroll-behavior: smooth;
+}
+body {
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+.header {
+	padding: 0;
+	float: left;
+	width: 100%;
+	height: auto;
+	background-color: #222;
+	margin: 0;
+	position: relative;
+}
+.header ul {
+	margin: 0;
+	padding: 0;
+}
+.header ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+.header ul li a {
+	text-decoration: none;
+	padding: 1rem;
+	display: block;
+	color: white;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition: all 1s ease;
+}
+.header ul li a:hover {
+	background-color: darkred;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition: all 1s ease;
+}
+.header ul li ul {
+	display: none;
+}
+.header ul li:hover ul {
+	display: block;
+}
+.jumbotron {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: url("gambar/jumbotron.jpg") no-repeat;
+	background-size: cover;
+	text-align: center;
+	height: auto;
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+}
+.layer {
+	background-color: black;
+	position: absolute;
+	opacity: 0.5;
+	width: 100%;
+	height: 100vh;
+}
+.jumbotron img {
+	position: relative;
+	width: 150px;
+	height: 160px;
+	border-radius: 400px;
+	box-shadow: 7px 7px 7px gray;
+	margin-top: 10%;
+	-webkit-transition:all 1s linear;
+	-moz-transition:all 1s linear;
+	-ms-transition:all 1s linear;
+	-o-transition:all 1s linear;
+}
+.jumbotron img:hover {
+	-webkit-transition:all 1s linear;
+	-moz-transition:all 1s linear;
+	-ms-transition:all 1s linear;
+	-o-transition:all 1s linear;
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+}
+.jumbotron p {
+	color: white;
+	position: relative;
+	font-size: large;
+}
+.jumbotron a {
+	text-decoration: none;
+	color: white;
+	position: relative;
+	font-size: large;
+	margin-bottom: 10%;
+}
+.jumbotron a:hover {
+	text-decoration: underline;
+}
+.jumbotron2 {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: url("gambar/jumbo2.jpg") no-repeat;
+	background-size: cover;
+	text-align: center;
+	height: auto;
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+}
+.jumbotron2 h1 {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.jumbotron2 p {
+	color: white;
+	position: relative;
+	font-size: x-large;
+	margin: 0;
+	padding: 0;
+}
+.jumbotron3 {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: url("gambar/jumbo3.jpg") no-repeat;
+	background-size: cover;
+	text-align: center;
+	height: auto;
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+}
+.jumbotron3 .layer {
+	background-color: black;
+	position: absolute;
+	opacity: 0.6;
+	width: 100%;
+	height: 100vh;
+}
+.jumbotron3 h1 {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.jumbotron3 p {
+	color: white;
+	position: relative;
+	font-size: x-large;
+	margin: 0;
+	padding: 0;
+}
+.jumbotron3 a {
+	text-decoration: underline;
+	color: white;
+	position: relative;
+	font-size: x-large;
+	margin-bottom: 10%;
+}
+.jumbotron3 a:hover {
+	text-decoration: none;
+}
+.article {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	float: left;
+	height: auto;
+	box-sizing: content-box;
+	background-color: lightgrey;
+	position: relative;
+}
+.article .sidebar {
+	border: 1px solid lightgray;
+	width: 25%;
+	margin-left: 2%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: white;
+	float: left;
+	height: auto;
+}
+.article .sidebar img {
+	width: 200px;
+	height: 250px;
+	box-shadow: 4px 4px 4px gray;
+	transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+}
+.article .sidebar img:hover {
+	transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+}
+.article .section {
+	border: 1px solid lightgray;
+	width: 70%;
+	margin-left: 2%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: white;
+	float: left;
+	height: auto;
+}
+.article .section2 {
+	border: 1px solid lightgray;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: white;
+	float: left;
+	height: auto;
+}
+.article .section2 button {
+	border:0;
+	padding: 10px;
+	width: 20%;
+	height: 50px;
+	background-color: darkblue;
+	color: white;
+	box-shadow: 5px 5px 5px gray;
+	cursor: pointer;
+}
+.article .section2 button:hover {
+	box-shadow: 5px 5px 5px white;
+	background-color: #000;
+}
+.footer {
+	width: 100%;
+	float: left;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	background-color: #222;
+	color: white;
+}
+.footer a {
+	text-decoration: none;
+	color: gray;
+}
+.footer a:hover {
+	color: white;
+}
+.footer img {
+	width: 30px;
+	height: 30px;
+	transition: all 1s linear;
+	-webkit-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+	-ms-transition: all 1s linear;
+	-o-transition: all 1s linear;
+}
+.footer img:hover {
+	transition: all 1s linear;
+	-webkit-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+	-ms-transition: all 1s linear;
+	-o-transition: all 1s linear;
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+}
+.totop {
+	right: 1px;
+	bottom: 1px;
+	position: fixed;
+	background-image: linear-gradient(darkblue, black);
+	width: 50px;
+	height: 50px;
+	color: white;
+	text-align: center;
+	font-weight: bolder;
+	display: block;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+}
+.totop:hover {
+	background-image: linear-gradient(black, darkblue);
+}
+.totop a {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+.aktif {
+	background-color: darkred;
+}
